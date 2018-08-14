@@ -1,348 +1,227 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Gallery</title>
-
-    <!-- Lato Font -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Stylesheet -->
-    <link href="css/gallery-dark-materialize.min.css" rel="stylesheet">
-
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Luke Epps</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
 </head>
 
-<body class="">
+<body class="landing is-preload">
 
-    <!-- Navbar and Header -->
-    <nav class="nav-extended nav-full-header">
-        <div class="nav-background">
-            <img class="active" src="./css/images/Beautiful-Photo-Of-Stars-2.jpg" style="no-repeat center center fixed" alt="control room">
-        </div>
-        <div class="nav-wrapper container">
-            <a href="index-dark.html" id="logo-link"><img src="./css/images/logo-sm.png" /></a>
-            <a href="#" data-activates="nav-mobile" class="button-collapse">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down blue-grey-text menu-buttons">
-                <li>
-                    <a class="menu-buttons" href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a class="menu-buttons" href="blog.html">Bio</a>
-                </li>
-                <li>
-                    <a class="menu-buttons" href="docs.html">Contact</a>
-                </li>
-            </ul>
-            <!--<li><a class='dropdown-button' href='#' data-activates='feature-dropdown' data-belowOrigin="true" data-constrainWidth="false">Features<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
-        <!-- Dropdown Structure
-        <ul id='feature-dropdown' class='dropdown-content'>
-          <li><a href="full-header.html">Fullscreen Header</a></li>
-          <li><a href="horizontal.html">Horizontal Style</a></li>
-          <li><a href="no-image.html">No Image Expand</a></li>
-        </ul>-->
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
 
-        </div>
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1>
+				<a href="index.html">Luke Epps</a>
+			</h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle">
+							<span>Menu</span>
+						</a>
+						<div id="menu">
+							<ul>
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="bio.html">Bio</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-        <div class="nav-header valign-wrapper">
-            <div class="center">
-                <h1 id="home-header">concept = 'reality';</h1>
-                <span id="scroll-button-down">
-                    <a href="#portfolio" class="btn-floating btn-large blue-grey" id="scroll-down-button"><i class="material-icons">keyboard_arrow_down</i></a>
-                    </a>
-                </span>
-            </div>
-        </div>
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>Luke Epps</h2>
+				<p>A Full Stack Web Developer
+					<br /> with an appetite for turning
+					<br /> concepts into reality.
+			</div>
+			<a href="#one" class="more scrolly">Check it out</a>
+		</section>
 
-        <!-- Fixed Masonry Filters -->
-        <!--<div class="categories-wrapper">
-      <div class="categories-container">
-        <ul class="categories container">
-          <li class="active">
-            <a href="#all">All</a>
-          </li>
-          <li>
-            <a href="#polygon">Polygon</a>
-          </li>
-          <li>
-            <a href="#bigbang">Big Bang</a>
-          </li>
-          <li>
-            <a href="#sacred">Sacred Geometry</a>
-          </li>
-        </ul>
-      </div>
-    </div>-->
-    </nav>
-    <ul class="side-nav" id="nav-mobile">
-        <li>
-            <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-            <a href="blog.html">Bio</a>
-        </li>
-        <li>
-            <a href="docs.html">Contact</a>
-        </li>
-    </ul>
+		<!-- One -->
+		<section id="one" class="wrapper style1 special">
+			<div class="inner">
+				<header class="major">
+					<h2>Solving problems, Creating Solutions
+						<br />&amp; Building Stuff... </h2>
+					<p>...these are my favorite things
+						<br /> (along with music, art, college basketball, and pizza)</p>
+				</header>
+				<ul class="icons major">
+					<li>
+						<!-- Github icon -->
+						<a target="_blank" href="https://github.com/Lbe4468">
+							<span class="icon fa-github major style1">
+							</span>
+						</a>
+					</li>
+					<li>
+						<!-- LinkedIn icon -->
+						<a target="_blank" href="https://twitter.com/lubepp">
+							<span class="icon fa-linkedin major style2">
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
 
-    <!-- Gallery -->
-    <div id="portfolio" class="section grey darken-2">
-        <div class="container">
-            <div class="gallery row">
-                <div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
-                    <div class="gallery-curve-wrapper">
-                        <a class="gallery-cover gray" style="height: 250px; width: 170px;">
-                            <img src="./css/images/burger.jpg" alt="placeholder">
-                        </a>
-                        <div class="gallery-header">
-                            <h4>Eat Burgers</h4>
-                            <p>Your menu consists of a HTML/CSS interface served up with Handlebars that has been optimized with Materialize. Behind the scenes, Node.js, Express.js, and MySQL are all hard at work cooking up the magic.</p>
-                        </div>
-                        <div class="gallery-body">
-                            <div class="title-wrapper">
-                                <h3>Burgerlicious</h3>
-                            </div>
-                            <p class="description">The user may enter any burger name to add it to the menu. This also adds the new burger entry into the MySQL database. The initial burger entry is added as available on the menu and placed on the left side of the screen. The
-                                user may then eat any burger by clicking on it, which moves it into the adjacent column and updates its status accordingly in the database.</p>
-                            <p class="description">Enjoy!
-                            </p>
-                            <div class="carousel-wrapper">
-                                <div class="carousel">
-                                    <a class="carousel-item" href="#one!"><img src="./css/images/burger.jpg"></a>
-                                    <a class="carousel-item" href="#two!"><img src="./css/images/burger2.jpg"></a>
-                                    <a class="carousel-item" href="#three!"><img src="./css/images/burger3.jpg"></a>
-                                    <a class="carousel-item" href="#four!"><img src="./css/images/burger4.jpg"></a>
-                                    <a class="carousel-item" href="#five!"><img src="./css/images/burger5.jpg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-action">
-                            <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
-                    <div class="gallery-curve-wrapper">
-                        <a class="gallery-cover gray" style="height: 250px; width: 170px;">
-                            <img src="./css/images/app-pic.JPG" alt="placeholder">
-                        </a>
-                        <div class="gallery-header">
-                            <h4>Feeling Lonely?</h4>
-                            <p>If so, take this short survey and see who matches you best. Materialize makes it look pretty while Node.js and Express.js work behind the scenes to make your love-life a reality.</p>
-                        </div>
-                        <div class="gallery-body">
-                            <div class="title-wrapper">
-                                <h3>Friend Finder App</h3>
-                            </div>
-                            <p class="description">
-                                Friend Finder implements friend matching based on the user's responses to a ten question survey. The user responds to questions with values from 1 (Strongly Disagree) to 5 (Strongly Agree). When the survey is submitted, an existing user record closest
-                                to the current user's responses is found and returned. The closest set of user responses is defined as the set with the lowest absolute difference for all ten questions combined.</p>
-                            <p class="description">
-                                <a href="https://luke-friend-finder.herokuapp.com/" target="_blank">Link to Live App</a>
-                            </p>
-                            <div class="carousel-wrapper">
-                                <div class="carousel">
-                                    <a class="carousel-item" href="#one!"><img src="./css/images/app-pic.JPG"></a>
-                                    <a class="carousel-item" href="#two!"><img src="./css/images/friend1.JPG"></a>
-                                    <a class="carousel-item" href="#two!"><img src="./css/images/friend2.JPG"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-action">
-                            <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery row">
-                <div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
-                    <div class="gallery-curve-wrapper">
-                        <a class="gallery-cover gray" style="height: 250px; width: 170px;">
-                            <img src="http://placehold.it/170x250" alt="placeholder">
-                        </a>
-                        <div class="gallery-header">
-                            <h4>Maze</h4>
-                            <p>test goes here.</p>
-                        </div>
-                        <div class="gallery-body">
-                            <div class="title-wrapper">
-                                <h3>Maze</h3>
-                                <span class="price">$11.99</span>
-                            </div>
-                            <p class="description">
-                                More text......................</p>
-                            <p class="description">
-                                more text......................</p>
-                            <div class="carousel-wrapper">
-                                <div class="carousel">
-                                    <a class="carousel-item" href="#one!"><img src="img/geometric-sun.jpg"></a>
-                                    <a class="carousel-item" href="#two!"><img src="img/geometric-maze.jpg"></a>
-                                    <a class="carousel-item" href="#three!"><img src="img/geometric-ice.jpg"></a>
-                                    <a class="carousel-item" href="#four!"><img src="img/geometric-cave.jpg"></a>
-                                    <a class="carousel-item" href="#five!"><img src="img/geometric-grapefruit.jpg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-action">
-                            <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
-                    <div class="gallery-curve-wrapper">
-                        <a class="gallery-cover gray" style="height: 250px; width: 170px;">
-                            <img src="http://placehold.it/170x250" alt="placeholder">
-                        </a>
-                        <div class="gallery-header">
-                            <h4>Maze</h4>
-                            <p>test goes here.</p>
-                        </div>
-                        <div class="gallery-body">
-                            <div class="title-wrapper">
-                                <h3>Maze</h3>
-                                <span class="price">$11.99</span>
-                            </div>
-                            <p class="description">
-                                More text......................</p>
-                            <p class="description">
-                                more text......................</p>
-                            <div class="carousel-wrapper">
-                                <div class="carousel">
-                                    <a class="carousel-item" href="#one!"><img src="img/geometric-sun.jpg"></a>
-                                    <a class="carousel-item" href="#two!"><img src="img/geometric-maze.jpg"></a>
-                                    <a class="carousel-item" href="#three!"><img src="img/geometric-ice.jpg"></a>
-                                    <a class="carousel-item" href="#four!"><img src="img/geometric-cave.jpg"></a>
-                                    <a class="carousel-item" href="#five!"><img src="img/geometric-grapefruit.jpg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-action">
-                            <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery row">
-                <div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
-                    <div class="gallery-curve-wrapper">
-                        <a class="gallery-cover gray" style="height: 250px; width: 170px;">
-                            <img src="http://placehold.it/170x250" alt="placeholder">
-                        </a>
-                        <div class="gallery-header">
-                            <h4>Maze</h4>
-                            <p>test goes here.</p>
-                        </div>
-                        <div class="gallery-body">
-                            <div class="title-wrapper">
-                                <h3>Maze</h3>
-                                <span class="price">$11.99</span>
-                            </div>
-                            <p class="description">
-                                More text......................</p>
-                            <p class="description">
-                                more text......................</p>
-                            <div class="carousel-wrapper">
-                                <div class="carousel">
-                                    <a class="carousel-item" href="#one!"><img src="img/geometric-sun.jpg"></a>
-                                    <a class="carousel-item" href="#two!"><img src="img/geometric-maze.jpg"></a>
-                                    <a class="carousel-item" href="#three!"><img src="img/geometric-ice.jpg"></a>
-                                    <a class="carousel-item" href="#four!"><img src="img/geometric-cave.jpg"></a>
-                                    <a class="carousel-item" href="#five!"><img src="img/geometric-grapefruit.jpg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-action">
-                            <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
-                    <div class="gallery-curve-wrapper">
-                        <a class="gallery-cover gray" style="height: 250px; width: 170px;">
-                            <img src="http://placehold.it/170x250" alt="placeholder">
-                        </a>
-                        <div class="gallery-header">
-                            <h4>Maze</h4>
-                            <p>test goes here.</p>
-                        </div>
-                        <div class="gallery-body">
-                            <div class="title-wrapper">
-                                <h3>Maze</h3>
-                                <span class="price">$11.99</span>
-                            </div>
-                            <p class="description">
-                                More text......................</p>
-                            <p class="description">
-                                more text......................</p>
-                            <div class="carousel-wrapper">
-                                <div class="carousel">
-                                    <a class="carousel-item" href="#one!"><img src="img/geometric-sun.jpg"></a>
-                                    <a class="carousel-item" href="#two!"><img src="img/geometric-maze.jpg"></a>
-                                    <a class="carousel-item" href="#three!"><img src="img/geometric-ice.jpg"></a>
-                                    <a class="carousel-item" href="#four!"><img src="img/geometric-cave.jpg"></a>
-                                    <a class="carousel-item" href="#five!"><img src="img/geometric-grapefruit.jpg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-action">
-                            <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="row container" id="footer-page">
-        <div class="col s3">
-        </div>
-        <div class="col s3">
-            <ul>
-                <li>
-                    <a class="menu-buttons" href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a class="menu-buttons" href="blog.html">Bio</a>
-                </li>
-                <li>
-                    <a class="menu-buttons" href="docs.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col s3">
-            <ul>
-                <li>
-                    <a class="menu-buttons" href="https://github.com/Lbe4468">Github Repo</a>
-                </li>
-                <li>
-                    <a class="menu-buttons" href="https://www.linkedin.com/in/luke-e-981246127/">LinkedIn</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col s3">
-        </div>
-    </div>
-    <!-- /.container -->
+		<!-- Two -->
+		<section id="two" class="wrapper alt style2">
+			<section class="spotlight">
+				<div class="image">
+					<img src="images/pic01.jpg" alt="" />
+				</div>
+				<div class="content">
+					<h2>My First Officially
+						<br /> Published Website</h2>
+					<p>This website was the first created by me to be published while officially working as a freelancer. While it still has
+						kinks and issues to be ironed out, it's extremely engaging and looks great on mobile.
+						<a target="_blank" href="https://scottyanceyevents.com/" class="scott-yancey-link"> Check it out for yourself.</a>
+					</p>
+				</div>
+			</section>
+			<section class="spotlight">
+				<div class="image">
+					<img src="images/pic02.jpg" alt="" />
+				</div>
+				<div class="content">
+					<h2>Clicky -
+						<br /> a React Game</h2>
+					<p>This was a neat little game created to show the versatility of the JavaScript library, React. This was one of the assignments
+						in the Full Stack Web Development Bootcamp at the University of Utah, from which I graduated earlier this year.
+						<a target="_blank" href="https://github.com/Lbe4468/clicky-game" class="scott-yancey-link">View the Github repo.</a>
+					</p>
+				</div>
+			</section>
+			<section class="spotlight">
+				<div class="image">
+					<img src="images/pic03.jpg" alt="" />
+				</div>
+				<div class="content">
+					<h2>The GIPHY App -
+						<br /> GIFs are so much fun...
+					</h2>
+					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+				</div>
+			</section>
+		</section>
 
+		<!-- Three -->
+		<section id="three" class="wrapper style3 special">
+			<div class="inner">
+				<header class="major">
+					<h2>Web Development Technologies I Enjoy</h2>
+					<p>With so many technologies (frameworks, databases, etc.) in our world it's hard not to try and learn
+						<br /> everything, but these are a few of my favorite at the moment.</p>
+				</header>
+				<ul class="features">
+					<li>
+						<h3 class="tech-titles">JavaScript</h3>
+						<p>You have to know JavaScript to do anything web related on the client side. On top of that, the types of apps you can
+							build with it are endless!</p>
+					</li>
+					<li>
+						<h3 class="tech-titles">Node.js</h3>
+						<p>It takes the versatility and scalability of JavaScript to a whole new level. I love exploring all of the amazing packages
+							out there.</p>
+					</li>
+					<li>
+						<h3 class="tech-titles">Express</h3>
+						<p>Removes the complexities of routing and API creation when developing web apps.</p>
+					</li>
+					<li>
+						<h3 class="tech-titles">React</h3>
+						<p>I absolutely love the component-based logic at the core of this JavaScript library. And the whole 'state' thing is
+							pretty cool.</p>
+					</li>
+					<li>
+						<h3 class="tech-titles">CSS3</h3>
+						<p>If your web app is not visually engaging, then you're just hurting your product. With so many CSS-related technologies
+							at our disposal, it's a blast to create aesthetically pleasing websites.</p>
+					</li>
+					<li>
+						<h3 class="tech-titles">MongoDB</h3>
+						<p>The flexibility provided by this NoSQL, document-oriented database makes it a pleasure to use when developing applications.</p>
+					</li>
+				</ul>
+			</div>
+		</section>
 
-    <!-- Core Javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/materialize/0.98.0/js/materialize.min.js"></script>
-    <script src="js/color-thief.min.js"></script>
-    <script src="js/galleryExpand.js"></script>
-    <script src="js/init.js"></script>
+		<section id="three" class="wrapper style5">
+			<div class="inner">
+				<header class="major">
+					<h2>Technologies Up Next</h2>
+					<p>These are the languages and technologies
+						<br /> I have planned to learn next.</p>
+				</header>
+				<ul class="features">
+					<li>
+						<h3 class="tech-titles">Java</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+					</li>
+					<li>
+						<h3 class="tech-titles">Angular</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+					</li>
+					<li>
+						<h3 class="tech-titles">React Native</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li>
+					<a target="_blank" href="https://github.com/Lbe4468" class="icon fa-github"></a>
+				</li>
+				<li>
+					<a target="_blank" href="https://twitter.com/lubepp" class="icon fa-twitter">
+						<span class="label">Twitter</span>
+					</a>
+				</li>
+				<li>
+					<a href="contact.html" class="icon fa-envelope-o">
+						<span class="label">Email</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Luke Epps</li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
 
