@@ -872,6 +872,12 @@ pre code {
 	}
 }
 
+#certificate-logo {
+	height: 328px!important;
+	width: 328px!important;
+	/* margin-left: 112px; */
+}
+
 @media screen and (max-width: 980px) {
 	.row {
 		display: flex;
@@ -879,6 +885,13 @@ pre code {
 		box-sizing: border-box;
 		align-items: stretch;
 	}
+	/* #certificate-logo {
+		height: 328px!important;
+		width: 328px!important;
+		margin-left: 32.5%;
+		margin-top: 25px;
+		align-items: center;
+	} */
 	.row>* {
 		box-sizing: border-box;
 	}
@@ -1065,6 +1078,11 @@ pre code {
 		box-sizing: border-box;
 		align-items: stretch;
 	}
+	/* #certificate-logo {
+		height: 328px!important;
+		width: 328px!important;
+		margin-left: 25%;
+	} */
 	.row>* {
 		box-sizing: border-box;
 	}
@@ -1251,6 +1269,11 @@ pre code {
 		box-sizing: border-box;
 		align-items: stretch;
 	}
+	/* #certificate-logo {
+		height: 328px!important;
+		width: 328px!important;
+		margin-left: 10%;
+	} */
 	.row>* {
 		box-sizing: border-box;
 	}
@@ -2793,7 +2816,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	}
 }
 
-.scott-yancey-link {
+.content-links {
 	color: rgb(243, 29, 243);
 	text-decoration: underline;
 }
